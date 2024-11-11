@@ -1,0 +1,81 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px; 
+}
+
+header {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+header .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+header nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: black;
+}
+
+.contact-info {
+    font-size: 14px;
+    text-align: right;
+}
+
+.main-banner {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.main-banner h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.services, .team, .what-we-do {
+    padding: 60px 0; /* Відступи між секціями */
+    text-align: center;
+}
+
+.services .service-item, .what-we-do .item {
+    display: inline-block;
+    width: 22%;
+    margin: 15px;
+}
+
+.team .team-member {
+    display: inline-block;
+    width: 22%;
+    margin: 15px;
+}
+
+.team .team-member img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
